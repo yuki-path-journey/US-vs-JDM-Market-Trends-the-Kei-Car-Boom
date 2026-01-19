@@ -20,6 +20,8 @@
 モデル名に「Camper」や「Van」の要素が含まれる車両は、標準的な軽トラよりも高い価格で取引されています。単なる農作業用としてだけでなく、DIYキャンピングカーのベース車両としての新しい価値が生まれています。
 
 <img src="camper_analysis.png" width="600">
+<img width="713" height="471" alt="image" src="https://github.com/user-attachments/assets/58b38a74-190b-41c2-b821-a9f162d04df6" />
+<img width="713" height="471" alt="image" src="https://github.com/user-attachments/assets/069d39d6-a604-4ed2-91c8-9152325ad111" />
 
 使用技術
 * **Language:** Python
