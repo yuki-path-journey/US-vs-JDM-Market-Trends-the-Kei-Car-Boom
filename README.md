@@ -29,3 +29,18 @@
 * **Dataset:** 1.4GB Raw Market Data
 
 > **分析のこだわり:** > データの読み込みからグラフ化まで、3つのレシピ（絞り込み、グループ化、新しい情報作成）を組み合わせて分析を繰り返しました。
+## 🔍 Deep Dive: Brand Value in the US
+さらにデータを絞り込み、純粋な「軽トラ」のみを抽出してメーカー別に分析しました。
+<img width="892" height="553" alt="image" src="https://github.com/user-attachments/assets/ace58af7-61ec-4676-b94d-a9e008a53781" />
+### 🏆 Manufacturer Price Battle
+アメリカ市場における平均取引価格の比較：
+* **Honda (Acty): $8,368**
+* **Mitsubishi (Minicab): $7,500**
+<img width="859" height="548" alt="image" src="https://github.com/user-attachments/assets/498796fe-65aa-4565-a359-fc1dffcb13a1" />
+
+ホンダ・アクティが三菱を抑え、高いブランド価値を維持していることが判明しました。これは、ホンダ独自のミッドシップレイアウトやエンジン性能が、アメリカのユーザーに評価されている可能性を示唆しています。
+
+### 🧹 Data Cleaning (Noise Reduction)
+今回の分析では、1.4GBの巨大データに含まれる「タンドラ」や「タコマ」といったフルサイズトラック、および「走行距離1,000万マイル」といった異常値（ノイズ）を排除し、軽トラ市場の真実を浮き彫りにしました。
+
+
