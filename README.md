@@ -37,7 +37,19 @@
 * **Honda (Acty): $8,368**
 * **Mitsubishi (Minicab): $7,500**
 <img width="859" height="548" alt="image" src="https://github.com/user-attachments/assets/498796fe-65aa-4565-a359-fc1dffcb13a1" />
+## 💎 Findings: The "Diamond" in 1.4GB Data
 
+1.4GBもの膨大な米国中古車データを解析した結果、軽トラ（Kei-truck）は非常に希少な存在であることが判明しました。
+
+### 📊 希少な実例の抽出
+数万件のデータから、執念のフィルタリングにより以下の2台を特定しました：
+- **Honda Acty**: $8,368 (Average)
+- **Mitsubishi Minicab**: $7,500 (Average)
+
+### 🧐 分析の結論
+一般的な米国の中古車市場（Craigslist等）において、日本産軽トラは「絶滅危惧種」レベルの希少性を持っています。このことは、軽トラが一般的な流通ルートではなく、専門のインポーター等を通じて取引されている可能性を強く示唆しています。
+
+> **Lesson Learned**: データの量よりも、その中にある「真実」を見つけ出すプロセスの重要性を学びました。
 ホンダ・アクティが三菱を抑え、高いブランド価値を維持していることが判明しました。これは、ホンダ独自のミッドシップレイアウトやエンジン性能が、アメリカのユーザーに評価されている可能性を示唆しています。
 
 ### 🧹 Data Cleaning (Noise Reduction)
