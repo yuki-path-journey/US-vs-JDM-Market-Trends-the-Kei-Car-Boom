@@ -74,3 +74,37 @@ Kaggleの巨大なデータセット（約1.45GB）を扱い、データ破損�
   2. メイン州 (ME) - 16台
   3. コロラド州 (CO) - 15台
 - **考察**: 雪国や離島（ハワイ等）では需要が高く、価格が上昇する傾向が見られました。
+# 🛻 US Craigslist Kei-Truck Market Analysis
+**アメリカの中古車データから探る「軽トラ」の生息調査**
+
+## 📌 プロジェクト概要
+アメリカ最大の掲示板サイト「Craigslist」の中古車データ（約42万件）を解析し、日本から輸出された希少な「軽トラ（Kei-Truck）」の市場状況を調査しました。
+
+## 🛠️ 解決した技術的課題
+このプロジェクトでは、以下のステップでデータ解析を行いました。
+
+1. **巨大データの処理 (1.4GB Handling)**
+   - Google Colab環境で1.4GB（42万行）のCSVを処理。
+   - `low_memory=False` や `on_bad_lines='skip'` を活用し、メモリ制限とデータ形式の不備を克服。
+2. **ターゲットの特定 (Precise Filtering)**
+   - 正規表現（Regex）を用い、モデル名から `carry`, `acty`, `sambar`, `hijet` 等のキーワードで軽トラのみを抽出。
+   - 426,880台の中から、精鋭の**37台**を特定。
+3. **データの可視化 (Data Visualization)**
+   - `Seaborn` と `Matplotlib` を使用し、メーカーシェアと全米の生息分布をグラフ化。
+
+## 📊 分析結果のハイライト
+- **最多メーカー**: **Honda (Acty)** がアメリカ市場で最もポピュラーな軽トラであることが判明。
+- **生息地**: テキサス州、オレゴン州、ニュージャージー州に多く分布。
+- **奇跡の1台**: アリゾナ州にて、走行距離わずか **6,766マイル** の1993年製三菱ミニキャブを発見。
+
+## 💻 使用技術
+- **Language**: Python 3.12
+- **Libraries**: Pandas, Matplotlib, Seaborn
+- **Environment**: Google Colab / Kaggle Notebook
+
+## 📈 可視化グラフ
+<img width="1372" height="584" alt="image" src="https://github.com/user-attachments/assets/d89adc3d-0e47-4c09-8a2e-f756e77f5d5c" />
+<img width="879" height="558" alt="image" src="https://github.com/user-attachments/assets/288cc6f6-f8ff-4856-9db7-70839dd213d7" />
+<img width="1442" height="584" alt="image" src="https://github.com/user-attachments/assets/972e3875-478d-4e0e-bf9f-08526ca6ae3f" />
+
+
