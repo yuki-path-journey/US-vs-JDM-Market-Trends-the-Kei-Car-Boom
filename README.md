@@ -106,5 +106,26 @@ Kaggleの巨大なデータセット（約1.45GB）を扱い、データ破損�
 <img width="1372" height="584" alt="image" src="https://github.com/user-attachments/assets/d89adc3d-0e47-4c09-8a2e-f756e77f5d5c" />
 <img width="879" height="558" alt="image" src="https://github.com/user-attachments/assets/288cc6f6-f8ff-4856-9db7-70839dd213d7" />
 <img width="1442" height="584" alt="image" src="https://github.com/user-attachments/assets/972e3875-478d-4e0e-bf9f-08526ca6ae3f" />
+# 🛻 JDM Kei-Truck Treasure Hunter (USA)
+42万件の全米中古車リストから、25年ルールをクリアした「本物の軽トラ」を救い出すプロジェクト。
 
+## 🔎 プロジェクトの概要
+アメリカの中古車市場データ（1.4GB / 42万件）を解析し、以下の条件に合致する「お宝個体」を抽出しています。
+- **純粋な日本車メーカー**: Suzuki, Daihatsu, Honda, Subaru, Mitsubishi, Mazda
+- **25年ルール適合**: 1999年以前のヴィンテージ個体を優先
+- **ターゲット**: 軽トラ（Acty, Hijet, Carry, Sambar, etc.）
+
+## 🚀 技術的な挑戦（Detective Intuition）
+- **データの軽量化**: 1.4GBの巨大CSVから、ノイズ（Cherokee等）を除去し、精鋭の81台までフィルタリング。
+- **データクレンジング**: メーカー名やモデル名のキーワード検索による純度100%のリスト作成。
+- **可視化**: Plotlyを使用した価格帯・年式の分布分析。
+
+## 📊 現在の分析状況
+- [x] 42万件からの一次抽出（JDMキーワード）
+- [x] ノイズ除去とメーカー特定（Pure Kei-truck filtering）
+- [ ] 全米の州別・密集地帯マップの作成
+- [ ] 掘り出し物価格（$5,000以下）のトレンド分析
+<img width="800" height="400" alt="newplot (4)" src="https://github.com/user-attachme<img width="800" height="400" alt="newplot (5)" src="https://github.com/user-attachments/assets/7d64df84-ea2d-4355-b778-89423170adcb" />
+nts/assets/2fd4c617-855a-4780-8ae8-18cfb2c1b821" />
+<img width="800" height="400" alt="newplot (4)" src="https://github.com/user-attachments/assets/8aab0e07-1c99-43f1-8930-01ec78e8a456" />
 
