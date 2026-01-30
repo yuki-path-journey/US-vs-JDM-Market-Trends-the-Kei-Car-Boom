@@ -130,3 +130,13 @@ nts/assets/2fd4c617-855a-4780-8ae8-18cfb2c1b821" />
 <img width="800" height="400" alt="newplot (4)" src="https://github.com/user-attachments/assets/8aab0e07-1c99-43f1-8930-01ec78e8a456" />
 「現在は54台の純粋な軽トラを追跡中」
 <img width="300" height="525" alt="newplot (5)" src="https://github.com/user-attachments/assets/490e201f-a911-4980-815c-c66efbf32d25" />
+<img width="312" height="800" alt="newplot (7)" src="https://github.com/user-attachments/assets/dcbab56d-8b4e-4d93-94c9-64f63517c968" />
+## 🏆 Conclusion: The Best State to Find a Kei-Truck
+Based on the analysis of 54 filtered pure Kei-trucks, here are the top 3 cheapest states:
+
+1. **Hawaii (HI)** - Average Price: **$1,999** (The Paradise of Kei-trucks!)
+2. **Florida (FL)** - Average Price: **$4,970**
+3. **California (CA)** - Average Price: **$5,413**
+
+*Data reflects the latest market trends from our "JDM-Kei-Hunter" investigation.*
+
