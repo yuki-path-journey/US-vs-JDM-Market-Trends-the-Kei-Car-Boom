@@ -128,4 +128,5 @@ Kaggleの巨大なデータセット（約1.45GB）を扱い、データ破損�
 <img width="800" height="400" alt="newplot (4)" src="https://github.com/user-attachme<img width="800" height="400" alt="newplot (5)" src="https://github.com/user-attachments/assets/7d64df84-ea2d-4355-b778-89423170adcb" />
 nts/assets/2fd4c617-855a-4780-8ae8-18cfb2c1b821" />
 <img width="800" height="400" alt="newplot (4)" src="https://github.com/user-attachments/assets/8aab0e07-1c99-43f1-8930-01ec78e8a456" />
-
+「現在は54台の純粋な軽トラを追跡中」
+<img width="300" height="525" alt="newplot (5)" src="https://github.com/user-attachments/assets/490e201f-a911-4980-815c-c66efbf32d25" />
